@@ -49,3 +49,8 @@ jobs:
         if: always()
         run: |
           find ~/.gradle/caches -path '*startup-runtime-1.1.1/res/values/values.xml' -print -exec sed -n '1,20p' {} \;
+
+      - name: Inspect merged accessibility resource
+        if: always()
+        run: |
+          find android/app/build/intermediates -path '*mergeDebugResources/merged.dir/values/values.xml' -print -exec grep -n -A 8 -B 8 'accessibility_description' {} \;
