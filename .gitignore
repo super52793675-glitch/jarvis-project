@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.jarvis.example
+.grok/
+node_modules/
+.gradle/
+build/
+**/build/
+local.properties
+*.jks
+*.keystore
+
+.grok/
+.project_id

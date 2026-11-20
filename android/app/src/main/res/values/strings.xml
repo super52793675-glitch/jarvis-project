@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jarvis</string>
+    <string name="accessibility_description">Jarvis can perform user-requested accessibility actions after you explicitly enable this service. Actions are limited to the user's instructions and Android policy.</string>
+</resources>

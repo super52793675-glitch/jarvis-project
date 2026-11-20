@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "灵犀 LINGXI",
+      "hasCanvas": false,
+      "bodyTextLen": 100,
+      "bodyTextHash": "be907b9cd655e808740fdee6bf265ed93c34c043410c16ebcac4714ba1042828",
+      "bodyTextPrefix": "灵犀 LINGXI EN 普 粵 繁 10:31 待命 我是灵犀。普通话、粤语、繁体、英文，说哪种都可以。 说一句，我就去做。 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "灵犀 LINGXI",
+      "hasCanvas": false,
+      "bodyTextLen": 100,
+      "bodyTextHash": "be907b9cd655e808740fdee6bf265ed93c34c043410c16ebcac4714ba1042828",
+      "bodyTextPrefix": "灵犀 LINGXI EN 普 粵 繁 10:31 待命 我是灵犀。普通话、粤语、繁体、英文，说哪种都可以。 说一句，我就去做。 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}
